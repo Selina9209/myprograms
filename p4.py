@@ -20,6 +20,7 @@
 import math
 start = 1
 num = int(input("Enter a value: "))
+factor_count = 0
 
 new_stop = int(math.sqrt(num))+1
 
@@ -31,4 +32,4 @@ while start < new_stop:
         else:
             factor_count += 1
     start += 1
-print(f"{num} has {factor_count} mamy factors.")
+print(f"{num} has {factor_count} many factors.")
